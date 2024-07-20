@@ -194,7 +194,7 @@ const { commands } = require("../lib");
 smd({
   cmdname: "menu",
   desc: "📃 Show all available commands",
-  react: "🍀",
+  react: "⏳",
   type: "user",
   filename: __filename,
 }, async (message, input) => {
@@ -202,18 +202,18 @@ smd({
     // Define themes
     const themes = [
       {
-        header: "🤖 Bot Command Menu 🤖",
-        footer: "WHIZBOT.INC🤖",
-        categoryHeader: "📂 Category:",
-        commandPrefix: "🔹",
-        image: "https://telegra.ph/file/7a18a0f57302c03be33a0.jpg",
+        header: "_*WHIZBOT MENU*_",
+        footer: "𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬: 𝗠𝗔𝗟𝗜𝗞 𝗠𝗘𝗛𝗧𝗔𝗕",
+        categoryHeader: "📂:",
+        commandPrefix: "⬡│▸",
+        image: "https://telegra.ph/file/9b8261a6abfb3c8e2ea38.jpg",
       },
       {
-        header: "🤖 Bot Command Menu 🤖",
-        footer: "WHIZBOT.INC🤖",
-        categoryHeader: "📂 Category:",
-        commandPrefix: "🔹",
-        image: "https://telegra.ph/file/e9780ee9c3a84c2817e41.jpg",
+        header: "*Commonds List*",
+        footer: "𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬: 𝗠𝗔𝗟𝗜𝗞 𝗠𝗘𝗛𝗧𝗔𝗕",
+        categoryHeader: "↪️:",
+        commandPrefix: "🔶🔸",
+        image: "https://telegra.ph/file/9b8261a6abfb3c8e2ea38.jpg",
       }
     ];
 
@@ -226,9 +226,9 @@ smd({
     });
 
     // Border characters
-    const topBorder = "╔══════════════════════════════════════════════════╗";
-    const bottomBorder = "╚══════════════════════════════════════════════════╝";
-    const sideBorder = "║";
+    const topBorder = "╭─────────────⦁";
+    const bottomBorder = "╰─────────────⦁";
+    const sideBorder = "│";
     const emptyLine = `${sideBorder}                                              ${sideBorder}`;
 
     // Function to pad text within the border
@@ -246,7 +246,7 @@ ${sideBorder} ${padText(`*📅 Date:* ${new Date().toLocaleDateString()}`)} ${si
 ${sideBorder} ${padText(`*🔢 Total Commands:* ${commands.length}`)} ${sideBorder}
 ${bottomBorder}
 ${sideBorder} ${padText(selectedTheme.footer)} ${sideBorder}
-${sideBorder} ${padText("Powered by KING B2K ✓")} ${sideBorder}
+${sideBorder} ${padText("𝗠𝗔𝗟𝗜𝗞-𝗠𝗗")} ${sideBorder}
 ${bottomBorder}`;
 
     const categorizedCommands = {};
