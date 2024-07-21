@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://youtu.be/-rvKNgGwNaA?si=KuLRTF1IsiiSPsGZ">
-    <img alt="WHIZBOT" height="300" src="https://telegra.ph/file/ca48f754c88ec141d4d42.jpg">
+    <img alt="WHIZBOT" height="300" src="https://telegra.ph/file/9b8261a6abfb3c8e2ea38.jpg">
   </a>
   <h1 align="center">WHIZBOTV3-PATCH 2.0.0</h1>
 </p>
@@ -78,15 +78,15 @@ If scan QR is not working, please try using pairing code. I am currently working
     <a href="https://venocyber-md-qr.onrender.com">
       <img title="SCAN QR SERVER 2" src="https://img.shields.io/badge/GET SESSION-h?color=darkblue&style=for-the-badge&logo=msi">
     </a>
-2. **[`PARING CODE`](https://venocybersessiong-1431c6f72219.herokuapp.com/pair). Or server 2 pairing code**
+2. **[`PARING CODE`](https://venocyber-md-session-1-1k23.onrender.com/pair). Or server 2 pairing code**
     <br>
-    <a href="https://venocyber-md-session-oz6r.onrender.com/pair">
+    <a href="https://venocyber-md-session-1-1k23.onrender.com/pair">
       <img title="Pairing Code Server 2" src="https://img.shields.io/badge/Pairing Code Server 2-h?color=green&style=for-the-badge&logo=msi">
     </a>
     *It is currently powerful working*
     Then go to `WhatsApp > Three dots > Linked Devices`
 3. **Get Mongodb_URI from [`Mongodb site`](https://www.mongodb.com/) | Watch Tutorial [`To Get Mongodb_URI`](https://youtu.be/6rnftFl0fAI). `Optional`**
-4. **Click [`FORK`](https://github.com/WHIZBOT1/WHIZBOTV3/fork) and `Star ⭐ Repository` for Courage.**
+4. **Click [`FORK`](https://github.com/fortrmu/WHIZBOTMD/fork) and `Star ⭐ Repository` for Courage.**
 5. **Deploy tutorial [`Youtube Video`](https://youtu.be/6rnftFl0fAI).**
 6. **Deploy FREE on `Codespace,` first see [`Codespace tutorial`](https://youtu.be/3NdJb6_1cJM)**
 7. **Deploy on [`HEROKU`](https://dashboard.heroku.com/new?template=https%3A%2F%2Fgithub.com%2FWHIZBOT1%2FWHIZBOTMD)**
