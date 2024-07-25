@@ -204,15 +204,15 @@ smd({
       {
         header: "_*WHIZBOT MENU*_",
         footer: "𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬: 𝗠𝗔𝗟𝗜𝗞 𝗠𝗘𝗛𝗧𝗔𝗕",
-        categoryHeader: "📂:",
-        commandPrefix: "⬡│▸",
+        categoryHeader: "↪️:",
+        commandPrefix: "⋄⊶",
         image: "https://telegra.ph/file/9b8261a6abfb3c8e2ea38.jpg",
       },
       {
         header: "*Commonds List*",
         footer: "𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬: 𝗠𝗔𝗟𝗜𝗞 𝗠𝗘𝗛𝗧𝗔𝗕",
         categoryHeader: "↪️:",
-        commandPrefix: "🔶🔸",
+        commandPrefix: "",
         image: "https://telegra.ph/file/9b8261a6abfb3c8e2ea38.jpg",
       }
     ];
@@ -241,12 +241,12 @@ smd({
     let menuText = `
 ${topBorder}
 ${sideBorder} ${padText(selectedTheme.header)} ${sideBorder}
-${sideBorder} ${padText(`*🕒 Time:* ${new Date().toLocaleTimeString()}`)} ${sideBorder}
-${sideBorder} ${padText(`*📅 Date:* ${new Date().toLocaleDateString()}`)} ${sideBorder}
-${sideBorder} ${padText(`*🔢 Total Commands:* ${commands.length}`)} ${sideBorder}
+${sideBorder} ${padText(`*🕒 Time:* ${new Date().toLocaleTimeString()}`)}
+${sideBorder} ${padText(`*📅 Date:* ${new Date().toLocaleDateString()}`)} 
+${sideBorder} ${padText(`*🔢 Total Commands:* ${commands.length}`)} 
 ${bottomBorder}
-${sideBorder} ${padText(selectedTheme.footer)} ${sideBorder}
-${sideBorder} ${padText("𝗠𝗔𝗟𝗜𝗞-𝗠𝗗")} ${sideBorder}
+${sideBorder} ${padText(selectedTheme.footer)} 
+${sideBorder} ${padText("⦁───𝗠𝗔𝗟𝗜𝗞-𝗠𝗗───⦁")} 
 ${bottomBorder}`;
 
     const categorizedCommands = {};
@@ -261,11 +261,11 @@ ${bottomBorder}`;
 
     for (const category in categorizedCommands) {
       menuText += `
-${selectedTheme.categoryHeader} *${category}*\n`;
+${topBorder}\n${sideBorder} ${selectedTheme.categoryHeader} ${category}\n${bottomBorder}\n${topBorder}\n`;
       categorizedCommands[category].forEach((command) => {
         menuText += `${selectedTheme.commandPrefix} ${command}\n`;
       });
-      menuText += `\n`;
+      menuText += `\n${bottomBorder}\n`;
     }
 
     // Creating the message data
