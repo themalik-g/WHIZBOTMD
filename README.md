@@ -99,7 +99,7 @@ If scan QR is not working, please try using pairing code. I am currently working
 ---
 
 - Star ⭐ repo if you like this bot.
-- If any problem, then [`WhatsApp Me Here`](https://wa.me/message/18763351213)
+- If any problem, then [`WhatsApp Me Here`](https://wa.me/message/923263429027)
 
 <h2 align="center">NOTICE</h2>
 
