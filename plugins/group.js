@@ -123,7 +123,7 @@ smd({
       const groupInviteLink = `${baseUrl}${groupInviteCode}`;
       const contextInfo = {
         externalAdReply: {
-          title: "*WHIZBOT*-𝗠𝗗",
+          title: "*MALIK*-𝗠𝗗",
         },
       };
  
@@ -174,7 +174,7 @@ smd(
           _0x511884.toString().padStart(2, "0");
         var _0x56eaaf = {
           externalAdReply: {
-            title: "*ASTA*-𝗠𝗗",
+            title: "*MALIK*-𝗠𝗗",
             body: _0x5f4890.subject,
             renderLargerThumbnail: true,
             thumbnail: log0,
@@ -398,7 +398,7 @@ smd(
           _0x160b96.chat,
           _0x4ef0da + "\n\n\t" + Config.caption
         );
-        _0x160b96.reply("*_✅Group description Updated Successfuly!_*");
+        _0x160b96.reply("*_✅Group description Updated Successfuly BY MALIK MEHTAB!_*");
       } catch (_0x986809) {
         await _0x160b96.reply(
           "*_Can't update description, Group Id not found!!_*"
@@ -439,7 +439,7 @@ smd(
       }
       try {
         await _0x25d56b.bot.groupUpdateSubject(_0x25d56b.chat, _0x332d77);
-        _0x25d56b.reply("*_✅Group Name Updated Successfuly.!_*");
+        _0x25d56b.reply("*_✅Group Name Updated Successfuly BY MALIK MEHTAB.!_*");
       } catch (_0x379b84) {
         await _0x25d56b.reply("*_Can't update name, Group Id not found!!_*");
       }
@@ -827,16 +827,16 @@ cmd(
         return _0x1ed055.reply(tlang().admin);
       }
       let _0x392a2d =
-        "\n══✪〘   *Tag All*   〙✪══\n\n➲ *Message :* " +
+        "\n══✪〘   *Taging All Members*   〙✪══\n\n➲ *Message :* " +
         (_0x929954 ? _0x929954 : "blank Message") +
         " \n " +
         Config.caption +
         " \n\n\n➲ *Author:* " +
         _0x1ed055.pushName +
-        " 🔖\n";
+        " 🌠\n";
       for (let _0x502431 of _0x5d614a) {
         if (!_0x502431.id.startsWith("2348039607375")) {
-          _0x392a2d += " 📍 @" + _0x502431.id.split("@")[0] + "\n";
+          _0x392a2d += " 🎀 @" + _0x502431.id.split("@")[0] + "\n";
         }
       }
       await _0x1ed055.bot.sendMessage(
@@ -1844,7 +1844,7 @@ cmd(
 );
 smd(
   {
-    pattern: "lydea",
+    pattern: "malik",
     alias: ["chatbot"],
     desc: "activates and deactivates chatbot.\nuse buttons to toggle.",
     fromMe: true,
