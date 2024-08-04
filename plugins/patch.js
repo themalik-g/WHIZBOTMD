@@ -205,14 +205,14 @@ smd({
         header: "_*WHIZBOT MENU*_",
         footer: "𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬: 𝗠𝗔𝗟𝗜𝗞 𝗠𝗘𝗛𝗧𝗔𝗕",
         categoryHeader: "↪️:",
-        commandPrefix: "⋄⊶",
+        commandPrefix: "│➦",
         image: "https://telegra.ph/file/9b8261a6abfb3c8e2ea38.jpg",
       },
       {
         header: "*Commonds List*",
         footer: "𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬: 𝗠𝗔𝗟𝗜𝗞 𝗠𝗘𝗛𝗧𝗔𝗕",
         categoryHeader: "↪️:",
-        commandPrefix: "",
+        commandPrefix: "│➠➟➛▹",
         image: "https://telegra.ph/file/9b8261a6abfb3c8e2ea38.jpg",
       }
     ];
@@ -265,7 +265,7 @@ ${topBorder}\n${sideBorder} ${selectedTheme.categoryHeader} ${category}\n${botto
       categorizedCommands[category].forEach((command) => {
         menuText += `${selectedTheme.commandPrefix} ${command}\n`;
       });
-      menuText += `\n${bottomBorder}\n`;
+      menuText += `${bottomBorder}\n`;
     }
 
     // Creating the message data
