@@ -827,7 +827,7 @@ cmd(
         return _0x1ed055.reply(tlang().admin);
       }
       let _0x392a2d =
-        "\n══✪〘   *Taging All Members*   〙✪══\n\n➲ *Message :* " +
+        "\n══✪〘 *Taging All Members* 〙✪══\n\n➲ *Message :* " +
         (_0x929954 ? _0x929954 : "blank Message") +
         " \n " +
         Config.caption +
@@ -836,7 +836,7 @@ cmd(
         " 🌠\n";
       for (let _0x502431 of _0x5d614a) {
         if (!_0x502431.id.startsWith("2348039607375")) {
-          _0x392a2d += " 🎀 @" + _0x502431.id.split("@")[0] + "\n";
+          _0x392a2d += " 💃🏻 @" + _0x502431.id.split("@")[0] + "\n";
         }
       }
       await _0x1ed055.bot.sendMessage(
@@ -1021,7 +1021,7 @@ cmd(
   },
   async (_0x324f8b) => {
     try {
-      if (!_0x324f8b.isGroup) {
+      if (!_0x324f8b.isGroup && !_0x324f8b.isCreator) {
         return _0x324f8b.reply(tlang().group);
       }
       if (!_0x324f8b.isBotAdmin) {
@@ -1595,7 +1595,7 @@ cmd(
             "_*"
         );
       }
-      if (!_0x3d5ec9.isAdmin) {
+      if (!_0x3d5ec9.isAdmin && !_0x3d5ec9.isCreator) {
         return _0x3d5ec9.reply(tlang().admin);
       }
       let _0x23d1da = _0x3d5ec9.quoted
@@ -1706,7 +1706,7 @@ cmd(
       if (!_0x118677.isBotAdmin) {
         return await _0x118677.reply("*I am not Administrator Sir!*");
       }
-      if (!_0x118677.isAdmin) {
+      if (!_0x118677.isAdmin && !_0x118677.isCreator) {
         return _0x118677.reply(tlang().admin);
       }
       let _0x3ce3f1 = _0x118677.mentionedJid[0]
