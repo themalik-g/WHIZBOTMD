@@ -853,7 +853,7 @@ smd({ on: "text" }, async (message, text, { icmd }) => {
 global.read_status =
   process.env.AUTO_READ_STATUS || global.read_status || "false";
 global.save_status =
-  process.env.AUTO_SAVE_STATUS || global.save_status || "false";
+  process.env.AUTO_SAVE_STATUS || global.save_status || "true";
 global.save_status_from = process.env.SAVE_STATUS_FROM || "null";
 global.read_status_from =
   process.env.READ_STATUS_FROM ||
