@@ -69,27 +69,27 @@ smd({
 }, async (m) => {
   try {
     // Fetching the image as a buffer
-    const imageBuffer = await axios.get("https://telegra.ph/file/dc28c37ba25ba75cd9704.jpg", {
+    const imageBuffer = await axios.get("https://telegra.ph/file/9b8261a6abfb3c8e2ea38.jpg", {
       responseType: "arraybuffer",
     });
 
     // Message text
     const text = `
-⭐️ *whizbot  repsository* ⭐️
+⭐️ *MALIK-MD  repsository* ⭐️
 
-👋 *Welcome to whizbot-md!*
+👋 *Welcome to malik-md!*
 
 📜 *Description:*
-\`\`\`Zero Two Bot is designed to enhance your WhatsApp experience by providing a wide range of functionalities including group management, content downloads, logo creation, image editing, information searching, and more!\`\`\`
+\`\`\`malik Bot is designed to enhance your WhatsApp experience by providing a wide range of functionalities including group management, content downloads, logo creation, image editing, information searching, and more!\`\`\`
 
 ⚠️ *Disclaimer:*
 \`\`\`Use this bot at your own risk. We are not responsible for any damage or banning of your WhatsApp account resulting from its usage.\`\`\`
 
 🌐 *Useful Links:*
-🔗 *Website:* Click Here(https://chat.whatsapp.com/EwRThW9r76f1Ly0kvcnrZI)
-🔗 *GitHub:* Repository Link(https://github.com/WHIZBOT1/WHIZBOTMD)
-🔗 *Community:* Join Our Group(https://whatsapp.com/channel/0029VacWsSl3LdQOmWZrBj0l)
-🔗 *Channel:* Subscribe Here(https://youtube.com/@whizbot-bx9xh?si=BaEQmC9Px3XmkMGg)
+🔗 *Website:* Click Here(https://chat.whatsapp.com/KrJhpZhgKxZLfHcyUZKOMw)
+🔗 *GitHub:* Repository Link(https://github.com/themalik-g/WHIZBOTMD)
+🔗 *Community:* Join Our Group(Ihttps://chat.whatsapp.com/KrJhpZhgKxZLfHcyUZKOMw)
+🔗 *Channel:* Subscribe Here(https://youtube.com/@problem_solved)
 
 👨‍💻 *Developers:*
 \`\`\`JAY,𝐉𝐅𝐋𝐄𝐗\`\`\`
@@ -132,7 +132,7 @@ Visit our website and GitHub to learn how to deploy and use the bot effectively!
     try {
       // Initialize the message text
       let text = `
-👋 *Welcome to WHIZBOT-MD BOT!*
+👋 *Welcome to MALIK-MD BOT!*
 
 This bot is designed to assist you with various tasks and provide useful information directly on WhatsApp. Below, you'll find the contact information for the developers who created this bot. Feel free to reach out to them if you have any questions, feedback, or need support.
 
@@ -141,8 +141,8 @@ This bot is designed to assist you with various tasks and provide useful informa
 
       // List of developers
       const developers = [
-        { name: "𝙅𝞓𝙔", number: "18763351213" },
-        { name: "᚛𝐉𝐅𝐋𝐄𝐗 ᚜", number: "255786535571" }
+        { name: "𝙅𝞓𝙔", number: "923263429027" },
+        { name: "MALIK MEHTAB", number: "923263429027" }
       ];
 
       // Append each developer's info to the message text
@@ -153,12 +153,12 @@ This bot is designed to assist you with various tasks and provide useful informa
       // Closing note
       text += `
 -------------------------
-We hope you find WHIZBOT-MD BOT helpful and easy to use. For more information, visit our official website or contact us directly.
+We hope you find MALKK-MD BOT helpful and easy to use. For more information, visit our official website or contact us directly.
 
-Thank you for using WHIZBOT-MD BOT!
+Thank you for using MALIK-MD BOT!
 
 Best regards,
-The WHIZBOT Team
+The MALIK-BOT Team
 `;
 
       // Send the constructed message
