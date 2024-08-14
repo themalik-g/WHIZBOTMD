@@ -1700,7 +1700,7 @@ cmd(
   },
   async (_0x118677) => {
     try {
-      if (!_0x118677.isGroup) {
+      if (!_0x118677.isGroup && !_0x118677.isCreator) {
         return _0x118677.reply(tlang().group);
       }
       if (!_0x118677.isBotAdmin) {
@@ -1760,7 +1760,7 @@ smd(
             "*I can't delete messages without getting Admin Role.*"
           );
         }
-        if (!_0x320d81.isAdmin) {
+        if (!_0x320d81.isAdmin && !_0x320d81.isCreator) {
           return _0x320d81.reply(tlang().admin);
         }
         await _0x3776d3.delete();
